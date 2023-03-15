@@ -1,4 +1,8 @@
-# TheBridge-ChatGPT
+![](img/TheBridge_logo.png)
+
+# Masterclass ChatGPT
+
+![](img/Chat_GPT.png)
 
 En este repositorio se va a ver todo lo relacionado con la masterclass de ChatGPT orientada a cloud. 
 
