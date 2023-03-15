@@ -16,7 +16,7 @@ En este repositorio se va a ver todo lo relacionado con la masterclass de ChatGP
 
 ## ¿Qué es ChatGPT?
 
-Es un modelo de lenguaje natural de gran escala desarrollado por OpenAI que utiliza técnica sde procesamiento de 
+Es un modelo de lenguaje natural de gran escala desarrollado por OpenAI que utiliza técnicas de procesamiento de 
 lenguaje natural (NLP) y aprendizaje automático (ML)
 
 En términos simples ChatGPT es un programa que puede "conversar" con los usuarios a través de texto, de manera similar a 
