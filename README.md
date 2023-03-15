@@ -145,6 +145,8 @@ El problema es que dentro de una conversación muy larga este sistema no funcion
 La solución a esto fue con una solución que plantearon unos empleados de google que llamaron "Transformers". En los 
 transformers se añade una nueva capa. Que los investigadores llamaron "atención" que hace referencia a como los humanos vemos.
 
+![](img/Transformers.png)
+
 Puedes consultar el paper que publicaron [aquí](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)
 
 El cambio es que por cada frase se mira las palabras que hay cerca prestando atención a las más importantes, lo que permite saber el contexto y con ello, 
