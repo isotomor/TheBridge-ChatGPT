@@ -147,7 +147,7 @@ transformers se añade una nueva capa. Que los investigadores llamaron "atenció
 
 ![](img/Transformers.png)
 
-Puedes consultar el paper que publicaron [aquí](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)
+Puedes consultar el paper que publicaron [aquí](https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)
 
 El cambio es que por cada frase se mira las palabras que hay cerca prestando atención a las más importantes, lo que permite saber el contexto y con ello, 
 si tienes la palabra banco saber si hablas de banco de peces, de banco de sentarse o de dinero. 
