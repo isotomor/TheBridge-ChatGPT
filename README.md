@@ -16,23 +16,22 @@ En este repositorio se va a ver todo lo relacionado con la masterclass de ChatGP
 
 ## ¿Qué es ChatGPT?
 
-Chat GPT es un modelo de lenguaje desarrollado por OpenAI. OpenAI es una organización de investigación en inteligencia artificial con sede en San Francisco, California. Fue fundada en 2015 por un grupo de investigadores en IA y empresarios, entre ellos Elon Musk, Sam Altman y Greg Brockman.
+Chat GPT es un modelo de lenguaje desarrollado por [OpenIA](https://openai.com/). [OpenAI](https://openai.com/) es una organización de investigación en inteligencia artificial con sede en San Francisco, California. Fue fundada en 2015 por un grupo de investigadores en IA y empresarios, entre ellos Elon Musk, Sam Altman y Greg Brockman.
 
 El objetivo de OpenAI es desarrollar tecnologías de IA de alta calidad y de libre acceso para la sociedad en general. Para lograrlo, la organización lleva a cabo investigaciones en una amplia variedad de áreas, como el aprendizaje profundo, el procesamiento del lenguaje natural y el juego automático.
 
-Chat GPT es uno de los muchos proyectos que OpenAI ha desarrollado. Se trata de un modelo de lenguaje que ha sido entrenado con una gran cantidad de datos de texto para poder realizar una amplia variedad de tareas relacionadas con el lenguaje natural.
+Algunos de los productos más conocidos son: 
+- [DALL-E2](https://openai.com/product/dall-e-2) -> es una herramienta de generación de imágenes por medio de inteligencia artificial. A través de lenguaje natural, es posible indicarle qué queremos que nos dibuje, y la IA creará una imagen única basada en la descripción que le hayamos dado.
+- [Whisper](https://platform.openai.com/playground) -> Es un sistema de reconocimiento automático de voz. 
+- ChatGPT -> Se trata de un modelo de lenguaje que ha sido entrenado con una gran cantidad de datos de texto para poder realizar una amplia variedad de tareas relacionadas con el lenguaje natural. Su capacidad para comprender el contexto y la intención detrás de las preguntas o consultas de los usuarios lo convierten en una herramienta muy útil para desarrollar chatbots y mejorar la precisión en los sistemas de búsqueda de información.
 
-Su capacidad para comprender el contexto y la intención detrás de las preguntas o consultas de los usuarios lo convierten en una herramienta muy útil para desarrollar chatbots y mejorar la precisión en los sistemas de búsqueda de información.
-
-### Historia de versiones
+### ChatGPT - Historia de versiones
 
 - GPT (2018)
 - GPT-2 (2019)
 - GPT-3 (2020) -> llegada de chatGPT
 - GPT-3.5 (2022) 
-
-GPT-4  (Incluye la capacidad de responder como si fuera un humano. Sus respuestas e interacciones serán más precisas y 
-coherentes, por lo que sumará puntos a la hora de enfrentarse al test de Turing.
+- [GPT-4](https://openai.com/product/gpt-4) (2023) -> Puede 
 
 ## ¿Cómo funciona ChatGPT?
 
