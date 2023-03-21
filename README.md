@@ -67,7 +67,7 @@ En el caso del lenguaje natural hay varios problemas a la hora de que un ordenad
 "móvil", tu te imaginas un móvil pero el ordenador solo sabe de números o 0 y 1 en concreto. Todo lo que recibe un ordenador 
 lo transforma en 0 y 1, imagenes, videos, audio, texto.. 
 
-Para poder entrenar una red neuronal, para que nos entienda, hay que tener esto en cuenta, que solo va a ver números. 
+Para poder entrenar una red neuronal, para que nos entienda, hay que tener esto en cuenta.
 
 Vamos a ver como funcinaría esta red neuronal teniendo en cuenta estas premisas. 
 
