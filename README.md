@@ -16,32 +16,28 @@ En este repositorio se va a ver todo lo relacionado con la masterclass de ChatGP
 
 ## ¿Qué es ChatGPT?
 
-Es un modelo de lenguaje natural de gran escala desarrollado por OpenAI que utiliza técnicas de procesamiento de 
-lenguaje natural (NLP) y aprendizaje automático (ML)
+Chat GPT es un modelo de lenguaje desarrollado por [OpenIA](https://openai.com/). [OpenAI](https://openai.com/) es una organización de investigación en inteligencia artificial con sede en San Francisco, California. Fue fundada en 2015 por un grupo de investigadores en IA y empresarios, entre ellos Elon Musk, Sam Altman y Greg Brockman.
 
-En términos simples ChatGPT es un programa que puede "conversar" con los usuarios a través de texto, de manera similar a 
-como lo haría un humano. 
+El objetivo de OpenAI es desarrollar tecnologías de IA de alta calidad y de libre acceso para la sociedad en general. Para lograrlo, la organización lleva a cabo investigaciones en una amplia variedad de áreas, como el aprendizaje profundo, el procesamiento del lenguaje natural y el juego automático.
 
-En resumen, ChatGPT es una herramienta de procesamiento de lenguaje natural impulsada por inteligencia artificial que 
-permite a los usuarios "conversar" con un modelo de lenguaje de gran escala utilizando texto. El modelo utiliza técnicas 
-de aprendizaje automático para mejorar continuamente su capacidad para entender y generar respuestas coherentes y 
-relevantes en una variedad de temas y contextos.
+Algunos de los productos más conocidos son: 
+- [DALL-E2](https://openai.com/product/dall-e-2) -> es una herramienta de generación de imágenes por medio de inteligencia artificial. A través de lenguaje natural, es posible indicarle qué queremos que nos dibuje, y la IA creará una imagen única basada en la descripción que le hayamos dado.
+- [Whisper](https://platform.openai.com/playground) -> Es un sistema de reconocimiento automático de voz. 
+- [ChatGPT](https://chat.openai.com/chat) -> Se trata de un modelo de lenguaje que ha sido entrenado con una gran cantidad de datos de texto para poder realizar una amplia variedad de tareas relacionadas con el lenguaje natural. Su capacidad para comprender el contexto y la intención detrás de las preguntas o consultas de los usuarios lo convierten en una herramienta muy útil para desarrollar chatbots y mejorar la precisión en los sistemas de búsqueda de información.
 
-### Historia de versiones
+### ChatGPT - Historia de versiones
 
 - GPT (2018)
 - GPT-2 (2019)
 - GPT-3 (2020) -> llegada de chatGPT
 - GPT-3.5 (2022) 
-
-GPT-4  (Incluye la capacidad de responder como si fuera un humano. Sus respuestas e interacciones serán más precisas y 
-coherentes, por lo que sumará puntos a la hora de enfrentarse al test de Turing.
+- [GPT-4](https://openai.com/product/gpt-4) (2023) -> Puede 
 
 ## ¿Cómo funciona ChatGPT?
 
 ### Algoritmo
 
-ChatGPT está basado en GPT3. GPT3 o Generative pre-trained transformer 3 es un Modelo
+ChatGPT está basado en GPT3. GPT3 o Generative pre-trained transformer 3 es un Modelo.
 
 Un modelo es un programa, algoritmo, función que intenta replicar el comportamiento de un sistema. 
 
@@ -50,6 +46,8 @@ Un modelo podría ser predecir cuantas altás se van a producir en una página W
 ![](img/ejemplo_modelo.png)
 
 En el siguiente enlace puedes hacer pruebas con modelos de imagen, sonido video.. Pincha [aquí](https://teachablemachine.withgoogle.com/train/)
+
+- Ejemplo modelo bolígrafo / subrayador pinche [aquí](https://teachablemachine.withgoogle.com/models/5-2OZ2Usg/)
 
 GPT como hemos visto anteriormente es un modelo de lenguaje. En concreto es un modelo generativo, dado un texto, genera palabras.
 A diferencia de los modelos que hemos visto de imagen o sonido. 
@@ -69,7 +67,7 @@ En el caso del lenguaje natural hay varios problemas a la hora de que un ordenad
 "móvil", tu te imaginas un móvil pero el ordenador solo sabe de números o 0 y 1 en concreto. Todo lo que recibe un ordenador 
 lo transforma en 0 y 1, imagenes, videos, audio, texto.. 
 
-Para poder entrenar una red neuronal, para que nos entienda, hay que tener esto en cuenta, que solo va a ver números. 
+Para poder entrenar una red neuronal, para que nos entienda, hay que tener esto en cuenta.
 
 Vamos a ver como funcinaría esta red neuronal teniendo en cuenta estas premisas. 
 
@@ -131,7 +129,7 @@ porque busca en los embedding y puede tener varios tonkens similares.
 Reduce y comprime al sistema básico y cuando lo tiene que devolver reconstruye con sus propias palabras.
 
 Además de esto, utiliza una técnica que se llama **sampling** que es algo parecido a generar un número aleatorio para moverse dentro del embedding. 
-Eso le hace moverse entre distintas frases. **Dando a parecer que se está inventando frases pero realmente son grases que ha aprendido en otro momento.**
+Eso le hace moverse entre distintas frases. **Dando a parecer que se está inventando frases pero realmente son frases que ha aprendido en otro momento.**
 
 ### Transformers
 
