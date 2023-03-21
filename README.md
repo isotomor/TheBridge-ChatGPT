@@ -16,16 +16,13 @@ En este repositorio se va a ver todo lo relacionado con la masterclass de ChatGP
 
 ## ¿Qué es ChatGPT?
 
-Es un modelo de lenguaje natural de gran escala desarrollado por OpenAI que utiliza técnicas de procesamiento de 
-lenguaje natural (NLP) y aprendizaje automático (ML)
+Chat GPT es un modelo de lenguaje desarrollado por OpenAI. OpenAI es una organización de investigación en inteligencia artificial con sede en San Francisco, California. Fue fundada en 2015 por un grupo de investigadores en IA y empresarios, entre ellos Elon Musk, Sam Altman y Greg Brockman.
 
-En términos simples ChatGPT es un programa que puede "conversar" con los usuarios a través de texto, de manera similar a 
-como lo haría un humano. 
+El objetivo de OpenAI es desarrollar tecnologías de IA de alta calidad y de libre acceso para la sociedad en general. Para lograrlo, la organización lleva a cabo investigaciones en una amplia variedad de áreas, como el aprendizaje profundo, el procesamiento del lenguaje natural y el juego automático.
 
-En resumen, ChatGPT es una herramienta de procesamiento de lenguaje natural impulsada por inteligencia artificial que 
-permite a los usuarios "conversar" con un modelo de lenguaje de gran escala utilizando texto. El modelo utiliza técnicas 
-de aprendizaje automático para mejorar continuamente su capacidad para entender y generar respuestas coherentes y 
-relevantes en una variedad de temas y contextos.
+Chat GPT es uno de los muchos proyectos que OpenAI ha desarrollado. Se trata de un modelo de lenguaje que ha sido entrenado con una gran cantidad de datos de texto para poder realizar una amplia variedad de tareas relacionadas con el lenguaje natural.
+
+Su capacidad para comprender el contexto y la intención detrás de las preguntas o consultas de los usuarios lo convierten en una herramienta muy útil para desarrollar chatbots y mejorar la precisión en los sistemas de búsqueda de información.
 
 ### Historia de versiones
 
