@@ -129,7 +129,7 @@ porque busca en los embedding y puede tener varios tonkens similares.
 Reduce y comprime al sistema básico y cuando lo tiene que devolver reconstruye con sus propias palabras.
 
 Además de esto, utiliza una técnica que se llama **sampling** que es algo parecido a generar un número aleatorio para moverse dentro del embedding. 
-Eso le hace moverse entre distintas frases. **Dando a parecer que se está inventando frases pero realmente son grases que ha aprendido en otro momento.**
+Eso le hace moverse entre distintas frases. **Dando a parecer que se está inventando frases pero realmente son frases que ha aprendido en otro momento.**
 
 ### Transformers
 
