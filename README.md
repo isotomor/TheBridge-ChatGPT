@@ -47,6 +47,8 @@ Un modelo podría ser predecir cuantas altás se van a producir en una página W
 
 En el siguiente enlace puedes hacer pruebas con modelos de imagen, sonido video.. Pincha [aquí](https://teachablemachine.withgoogle.com/train/)
 
+- Ejemplo modelo bolígrafo / subrayador pinche [aquí](https://teachablemachine.withgoogle.com/models/5-2OZ2Usg/)
+
 GPT como hemos visto anteriormente es un modelo de lenguaje. En concreto es un modelo generativo, dado un texto, genera palabras.
 A diferencia de los modelos que hemos visto de imagen o sonido. 
 El modelo te dice cual es la palabra más probable que habrá a continuación en un texto.
