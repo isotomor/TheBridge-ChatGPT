@@ -152,7 +152,7 @@ Puedes consultar el paper que publicaron [aquí](https://proceedings.neurips.cc/
 El cambio es que por cada frase se mira las palabras que hay cerca prestando atención a las más importantes, lo que permite saber el contexto y con ello, 
 si tienes la palabra banco saber si hablas de banco de peces, de banco de sentarse o de dinero. 
 
-Puedes entender un poco más viendo el siguiente video: [enlace](https://www.youtube.com/watch?v=aL-EmKuB078)
+![](img/Transformers_02.png)
 
 ### Entrenamientos ChatGPT:
 
