@@ -136,27 +136,39 @@ Eso le hace moverse entre distintas frases. **Dando a parecer que se está inven
 Uno de los problemas en este tipo de redes que resuelve chatGPT es recordar la conversación anterior. Porque en lo que hemos visto anteriormente 
 no estamos contando con que chatgpt si le has hecho varias preguntas recuerda las anteriores y te puede contestar en función de dos preguntas. 
 
-Una técnica para solucionar esto es con LSTM (Long Short-term memory). Puedes consultar que son estas redes [aquí](https://blog.gft.com/es/2018/11/06/como-usar-redes-neuronales-lstm-en-la-prediccion-de-averias-en-las-maquinas/#:~:text=Las%20LSTM%20son%20un%20tipo,decidir%20cu%C3%A1l%20ser%C3%A1%20el%20siguiente.)
+Una técnica para solucionar esto son las redes recurrentes, que cogen como input la palabra anterior aunque estas tienen muchos problemas, uno de ellos es que 
+no son paralelizables. Además con el paso de las palabras da más importancia a las nuevas y no a las viejas por lo que pierden valor. 
 
-El problema es que dentro de una conversación muy larga este sistema no funciona y además tampoco se puede paralelizar. 
+![img.png](Transformers01.png)
 
-La solución a esto fue con una solución que plantearon unos empleados de google que llamaron "Transformers". En los 
-transformers se añade una nueva capa. Que los investigadores llamaron "atención" que hace referencia a como los humanos vemos.
+Sabiendo esto se creó una nueva técnica llamada LSTM (Long Short-term memory). Que aunque es mucho mejor, sigue teniendo problemas 
+como por ejemplo la parelización. Puedes consultar que son estas redes [aquí](https://blog.gft.com/es/2018/11/06/como-usar-redes-neuronales-lstm-en-la-prediccion-de-averias-en-las-maquinas/#:~:text=Las%20LSTM%20son%20un%20tipo,decidir%20cu%C3%A1l%20ser%C3%A1%20el%20siguiente.)
+
+El siguiente paso fue unir el funcionamiento de las redes recurrentes con el concepto de ateción, que como el propio nombre dice, muestra atención 
+a las frases y por cada palabra les da un porcentaje de cercanía hacia otras palabras, esta técnica mejoraba muchoe el concepto anterior porque 
+permitía tener un mapa por cada frase con palabras realacionadas con puntuación y permitía hacer búsquedas contextualizadas. 
+
+![](img/Transformers_02.png)
+
+Aunque esto fue un gran avance, en el 2017 unos empleados de google publicaron un paper con el titular "Attention is all you new" donde definían un nuevo 
+concepto llamado "Transformers". 
 
 ![](img/Transformers.png)
 
 Puedes consultar el paper que publicaron [aquí](https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)
 
-El cambio es que por cada frase se mira las palabras que hay cerca prestando atención a las más importantes, lo que permite saber el contexto y con ello, 
-si tienes la palabra banco saber si hablas de banco de peces, de banco de sentarse o de dinero. 
+Con este nuevo concepto, proponían que en lugar de hacer consultas recurrentes, se lanzasen todas las predicciones a la vez usando "Attention". 
+Y ¿cómo sabe la posición de una palabra si se lanza todo a la vez? Como hemos visto realmente cada palabra para un ordenador no es un conjunto de letras, 
+sino de números. La forma que solucionan es añadir información posicional en forma de números binarios 1, 2, 3.. para saber la posición que ocupan en una frase.
 
-![](img/Transformers_02.png)
+En el siguiente paper puedes entrar más en detalle de cómo funciona [The Positional Encoding](https://kazemnejad.com/blog/transformer_architecture_positional_encoding)
 
 ### Entrenamientos ChatGPT:
 
-- Cuando entrenaron a GPT2 usaron 1.5 miles de millones de parametros. 
+- Cuando entrenaron GPT usaron 117 millones de parametros. 
+- Cuando entrenaron GPT-2 usaron 1.5 miles de millones de parametros. 
 - Cuando entrenaron ChatGPT (GPT-3) usaron 175 miles de millones de parámetros. 
-
+- Cuando entrenaron (GPT-4) han usado más de 100 Billones de parámetros. 
 
 ## Microsoft y ChatGPT
 
