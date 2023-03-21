@@ -37,7 +37,7 @@ Algunos de los productos más conocidos son:
 
 ### Algoritmo
 
-ChatGPT está basado en GPT3. GPT3 o Generative pre-trained transformer 3 es un Modelo
+ChatGPT está basado en GPT3. GPT3 o Generative pre-trained transformer 3 es un Modelo.
 
 Un modelo es un programa, algoritmo, función que intenta replicar el comportamiento de un sistema. 
 
