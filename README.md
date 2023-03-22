@@ -139,7 +139,7 @@ no estamos contando con que chatgpt si le has hecho varias preguntas recuerda la
 Una técnica para solucionar esto son las redes recurrentes, que cogen como input la palabra anterior aunque estas tienen muchos problemas, uno de ellos es que 
 no son paralelizables. Además con el paso de las palabras da más importancia a las nuevas y no a las viejas por lo que pierden valor. 
 
-![img.png](Transformers01.png)
+![img.png](img/Transformers01.png)
 
 Sabiendo esto se creó una nueva técnica llamada LSTM (Long Short-term memory). Que aunque es mucho mejor, sigue teniendo problemas 
 como por ejemplo la parelización. Puedes consultar que son estas redes [aquí](https://blog.gft.com/es/2018/11/06/como-usar-redes-neuronales-lstm-en-la-prediccion-de-averias-en-las-maquinas/#:~:text=Las%20LSTM%20son%20un%20tipo,decidir%20cu%C3%A1l%20ser%C3%A1%20el%20siguiente.)
